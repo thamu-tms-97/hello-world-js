@@ -1,17 +1,17 @@
 <html>
     <body>
-        <h1>Hello World</h1>
-        <p>Click the button to display hello world</p>
+        <h1>Hotel Reception</h1>
+        <p>Press the bell</p>
         <!-- This is an HTML commet -->
-        <button onclick="hello()">Hello World</button>
+        <button onclick="receptionist()">bell</button>
         <script>
             // Function to display hello world
             /*
              * This is a multi-line comment
              */
-            function hello() {
-                alert('Hello world!');
-                console.log('Hello World');
+            function receptionist() {
+                let name = prompt('May I have your name please?!');
+                alert('Hello ! Mr.' + name + ' How can i help you');
             }
         </script>
     </body>
